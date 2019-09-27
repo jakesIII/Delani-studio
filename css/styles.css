@@ -1,6 +1,12 @@
 header{
     background-image: url("../IP3/assets/backgrounds/h_img.jpg");
     height: 800px;
+    text-align: center;
+    align-items: center;
+    letter-spacing: none;
+    background-size: cover;
+    color: white;
+
 }
 
 .services{
@@ -9,4 +15,23 @@ header{
 
 .contacts{
     background-image: url("../IP3/assets/backgrounds/c_image.jpg");
+}
+
+header>img{
+    margin-top: 200px;
+}
+
+header>h1{
+    font-size: 40px;
+    font-weight: 500;
+    padding: 15px;
+}
+
+.words{
+    text-align: center;
+    height: 400px;
+}
+
+.services{
+    color: white;
 }
