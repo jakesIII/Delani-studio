@@ -15,38 +15,46 @@
         <header>
             <img src="IP3/assets/logo/logo.png" alt="logo" width="100">
             <h1>WELCOME <br> TO DELANI STUDIO</h1>
-            <p>AMAZING PEOPLE ARE MAKING AMAZING DESIGNS IN A FUN ENVIRONMENT</p>
-            <img class="mouse" src="IP3/assets/mouse_click.png" alt="">
+            <p class="slide">AMAZING PEOPLE ARE MAKING AMAZING DESIGNS IN A FUN ENVIRONMENT</p>
+            <a href="#about"><img class="mouse" src="IP3/assets/mouse_click.png" alt=""></a>
         </header>
         <article class="words about">
-            <h3>ABOUT US</h3>
+            <h3 id="about">ABOUT US</h3>
             <p>When you work with us, you are part of a team of commited collaborators. All aspects of our software development process are intergrated,interactive <br> and agile. <br> Our approach unifies design, development and product <br> management to create exceptional products. We start each project by understanding your business goals, the user's needs and the product requirements. <br> Then we help translate them into effective and elegant solutions.</p>
         </article>
         <article class="words services">
             <h3>SERVICES</h3>
-            <p>Before we sign a contract or write a line of code our team will spend the necessary time we needed to understand your product vision. The outcome of this scoping session is a proposal or high-level statement of work. Based on your requirements, we can provide a complete offering or just the pieces you need.</p>
+            <p>Before we sign a contract or write a line of code our team will spend the necessary time we needed to understand your product vision. <br> The outcome of this scoping session is a proposal or high-level statement of work. <br> Based on your requirements, we can provide a complete offering or just the pieces you need.</p>
         </article>
 
         <article class="activities">
             <h3>WHAT WE DO</h3>
-            <div class="design">
-                <img src="IP3/assets/services_icons/design_icon.png">
-                <h4>DESIGN</h4>
-                <p>Our design practice offers a full range of services including a brand strategy, interaction and visual design and user experience testing.Throughout your project, our designers create and implement visual design and workflows, solicit user feedback and work with you to make sure what gets built is what is needed.</p>
-            </div>
-            <div class="development">
-                <img src="IP3/assets/services_icons/dev_icon.png">
-                <h4>DEVELOPMENT</h4>
-                <p>All engineers are fluent in the latest enterprise, mobile and web development technologies. They collaborate with your team to write and improve test-drive code on a daily basis, using proven practices such as test-driven development and pair programming.</p>
-            </div>
-            <div class="product">
-                <img src="IP3/assets/services_icons/product_icon.png" alt="product">
-                <h4>PRODUCT MANAGEMENT</h4>
-                <p>Planning and development is iterative. Because we are constantly coding and testing, the products we build are always ready to go live.This iterative process allows for changes as business requirements evolve.</p>
+            <div class="row">
+                    <div class="design col-md-4">
+                        <div class="swapout">
+                            <img src="IP3/assets/services_icons/design_icon.png">
+                            <h4>DESIGN</h4>
+                        </div>
+                        <p class="swapin">Our design practice offers a full range of services including a brand strategy, interaction and visual design and user experience testing.Throughout your project, our designers create and implement visual design and workflows, solicit user feedback and work with you to make sure what gets built is what is needed.</p>
+                    </div>
+                    <div class="development col-md-4">
+                        <div class="swapout1">
+                            <img src="IP3/assets/services_icons/dev_icon.png">
+                            <h4>DEVELOPMENT</h4>
+                        </div>
+                        <p class="swapin1">All engineers are fluent in the latest enterprise, mobile and web development technologies. They collaborate with your team to write and improve test-drive code on a daily basis, using proven practices such as test-driven development and pair programming.</p>
+                    </div>
+                    <div class="product col-md-4">
+                        <div class="swapout2">
+                            <img src="IP3/assets/services_icons/product_icon.png" alt="product">
+                            <h4>PRODUCT MANAGEMENT</h4>
+                        </div>
+                        <p class="swapin2">Planning and development is iterative. Because we are constantly coding and testing, the products we build are always ready to go live.This iterative process allows for changes as business requirements evolve.</p>
+                    </div>
             </div>
         </article>
-        <section>
-            <h3>PORTFOLIO</h3>
+        <h3>PORTFOLIO</h3>
+        <section class="portfolio">
             <div class="top">
                 <img src="IP3/assets/portfolio/work4.jpg" alt="work4">
                 <img src="IP3/assets/portfolio/work3.jpg" alt="work3">
@@ -63,22 +71,31 @@
         <section>
             <div class="contacts">
                 <h3>CONTACT US</h3>
-                <form action="">
-                    <input type="text">
-                    <input type="text">
-                    <textarea name="" id="" cols="30" rows="10"></textarea>
-                </form>
+                <div class="end">
+                    <form action="">
+                        <div class="row form-group">
+                            <input type="text" name="user" placeholder="Name..." value="">
+                            <input type="text" placeholder="Email...">
+                        </div>
+                        <textarea name="message" id="" cols="30" rows="10" placeholder="Your message here..."></textarea>
+                        <div>
+                            <button type="submit" class="btn btn-primary">Submit</button>
+                        </div>
+                    </form>
+                </div>
             </div>
             <footer action="">
-                <img src="IP3/assets/social_icons/twitter.png" alt="twitter">
-                <img src="IP3/assets/social_icons/dribble.png" alt="dribble">
-                <img src="IP3/assets/social_icons/facebook.png" alt="facebook">
-                <img src="IP3/assets/social_icons/g_plus.png" alt="g plus">
-                <img src="IP3/assets/social_icons/skype.png" alt="skype">
-                <img src="IP3/assets/social_icons/stumble_upon.png" alt="stumble">
-                <img src="IP3/assets/social_icons/behance.png" alt="behance">
-                <img src="IP3/assets/social_icons/pinterest.png" alt="pinterest">
-                <img src="IP3/assets/social_icons/flickr.png" alt="flickr">    
+                <div>
+                    <img src="IP3/assets/social_icons/twitter.png" alt="twitter">
+                    <img src="IP3/assets/social_icons/dribble.png" alt="dribble">
+                    <img src="IP3/assets/social_icons/facebook.png" alt="facebook">
+                    <img src="IP3/assets/social_icons/g_plus.png" alt="g plus">
+                    <img src="IP3/assets/social_icons/skype.png" alt="skype">
+                    <img src="IP3/assets/social_icons/stumble_upon.png" alt="stumble">
+                    <img src="IP3/assets/social_icons/behance.png" alt="behance">
+                    <img src="IP3/assets/social_icons/pinterest.png" alt="pinterest">
+                    <img src="IP3/assets/social_icons/flickr.png" alt="flickr">    
+                </div>
                 <h4>DELANI STUDIO <br> 2019</h4>
             </footer>
         </section>
