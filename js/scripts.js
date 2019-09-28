@@ -1,3 +1,5 @@
+var work = ["work4", "work3", "work2", "work1", "work5", "work6", "work7", "work8"]
+
 $(document).ready(function(){
     $("div.design").click(function(){
         $(".swapin").toggle();
