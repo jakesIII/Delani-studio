@@ -15,11 +15,18 @@ $(document).ready(function(){
     });
 
     $("form").submit(function(){
-            var name = $("input#user").val();
-            var email = $("input#email").val();
-            var text = $("input#textarea").val();
-            
-            alert(name + ", Thank you so much for you contacting us.")
+        var name = $("input#user").val();
+        var email = $("input#email").val();
+        var text = $("input#textarea").val();
+
+        alert(name + ", Thank you so much for you contacting us.");
+
         event.preventDefault();
+    });
+
+    $(".portfolio").hover(function(){
+        $(".work").animate({
+            opacity: '0.4',
+        });
     });
 });
