@@ -15,7 +15,10 @@ $(document).ready(function(){
     });
 
     $("form").submit(function(){
-            var name = form.document["user"].value;
+            var name = $("input#user").val();
+            var email = $("input#email").val();
+            var text = $("input#textarea").val();
+            
             alert(name + ", Thank you so much for you contacting us.")
         event.preventDefault();
     });
