@@ -11,7 +11,7 @@
     <title>Delani Studio</title>
 </head>
 <body>
-    <div class="container-fluid">
+    <div>
         <header>
             <img src="IP3/assets/logo/logo.png" alt="logo" width="100">
             <h1>WELCOME <br> TO DELANI STUDIO</h1>
@@ -29,49 +29,84 @@
 
         <article class="activities">
             <h3>WHAT WE DO</h3>
-            <div class="row">
-                    <div class="design col-md-4">
+            <div class="container">
+                    <div class="design">
                         <div class="swapout">
-                            <img src="IP3/assets/services_icons/design_icon.png">
+                            <img src="IP3/assets/services_icons/design_icon.png"  width="100">
                             <h4>DESIGN</h4>
                         </div>
-                        <p class="swapin">Our design practice offers a full range of services including a brand strategy, interaction and visual design and user experience testing.Throughout your project, our designers create and implement visual design and workflows, solicit user feedback and work with you to make sure what gets built is what is needed.</p>
+                        <div  class="swapin">
+                            <h4>DESIGN</h4>
+                            <p>Our design practice offers a full range of services including a brand strategy, interaction and visual design and user experience testing.Throughout your project, our designers create and implement visual design and workflows, solicit user feedback and work with you to make sure what gets built is what is needed.</p>
+                        </div>
                     </div>
-                    <div class="development col-md-4">
+                    <div class="development">
                         <div class="swapout1">
-                            <img src="IP3/assets/services_icons/dev_icon.png">
+                            <img src="IP3/assets/services_icons/dev_icon.png" width="100">
                             <h4>DEVELOPMENT</h4>
                         </div>
-                        <p class="swapin1">All engineers are fluent in the latest enterprise, mobile and web development technologies. They collaborate with your team to write and improve test-drive code on a daily basis, using proven practices such as test-driven development and pair programming.</p>
+                        <div class="swapin1">
+                            <h4>DEVELOPMENT</h4>
+                            <p>All engineers are fluent in the latest enterprise, mobile and web development technologies. They collaborate with your team to write and improve test-drive code on a daily basis, using proven practices such as test-driven development and pair programming.</p>
+                        </div>
                     </div>
-                    <div class="product col-md-4">
+                    <div class="product">
                         <div class="swapout2">
-                            <img src="IP3/assets/services_icons/product_icon.png" alt="product">
+                            <img src="IP3/assets/services_icons/product_icon.png" alt="product"  width="100">
                             <h4>PRODUCT MANAGEMENT</h4>
                         </div>
-                        <p class="swapin2">Planning and development is iterative. Because we are constantly coding and testing, the products we build are always ready to go live.This iterative process allows for changes as business requirements evolve.</p>
+                        <div class="swapin2">
+                            <h4>PRODUCT MANAGEMENT</h4>
+                            <p>Planning and development is iterative. Because we are constantly coding and testing, the products we build are always ready to go live.This iterative process allows for changes as business requirements evolve.</p>
+                        </div>
                     </div>
             </div>
         </article>
         <h3>PORTFOLIO</h3>
-        <section class="portfolio">
-            <div class="top">
-                <img class="work4" src="IP3/assets/portfolio/work4.jpg" alt="work4">
-                <img class="work3" src="IP3/assets/portfolio/work3.jpg" alt="work3">
-                <img class="work2" src="IP3/assets/portfolio/work2.jpg" alt="work2">
-                <img class="work1" src="IP3/assets/portfolio/work1.jpg" alt="work1">
+        <section class="container">
+            <div class="row">
+                <div class="col-md-3">
+                    <img class="wrk img-thumbnail" id="work4" src="IP3/assets/portfolio/work4.jpg" alt="work4">
+                    <p id="text4"> Blank </p>
+                </div> 
+                <div class="col-md-3">
+                    <img class="wrk img-thumbnail" id="work3" src="IP3/assets/portfolio/work3.jpg" alt="work3">
+                    <p id="text3">Gaming</p>
+                </div>
+                <div class="col-md-3">
+                    <img class="wrk img-thumbnail" id="work2" src="IP3/assets/portfolio/work2.jpg" alt="work2">
+                    <p id="text2">Abstract</p>
+                </div>
+                <div class="col-md-3">
+                    <img class="wrk img-thumbnail" id="work1" src="IP3/assets/portfolio/work1.jpg" alt="work1">
+                    <p id="text1">Profile construct</p>
+                </div>
+                
             </div>
-            <div class="top">
-                <img class="work5" src="IP3/assets/portfolio/work5.jpg" alt="work5">
-                <img class="work6" src="IP3/assets/portfolio/work6.jpg" alt="work6">
-                <img class="work7" src="IP3/assets/portfolio/work7.jpg" alt="work7">
-                <img class="work8" src="IP3/assets/portfolio/work8.jpg" alt="work8">
+            <div class="row">
+                <div class="col-md-3">
+                    <img class="wrk img-thumbnail" id="work5" src="IP3/assets/portfolio/work5.jpg" alt="work5">
+                    <p id="text5">Blogs</p>
+                </div>
+                <div class="col-md-3">
+                    <img class="wrk img-thumbnail" id="work6" src="IP3/assets/portfolio/work6.jpg" alt="work6">
+                    <p id="text6">Fill out forms</p>
+                </div>
+                <div class="col-md-3">
+                    <img class="wrk img-thumbnail" id="work7" src="IP3/assets/portfolio/work7.jpg" alt="work7">
+                    <p id="text7">Logos</p>
+                </div>
+                <div class="col-md-3">
+                    <img class="wrk img-thumbnail" id="work8" src="IP3/assets/portfolio/work8.jpg" alt="work8">
+                    <p id="text8">Restaurants</p>
+                </div>
+                
             </div>
         </section>
         <section>
             <div class="contacts">
                 <h3>CONTACT US</h3>
-                <div class="end">
+                <div class="container end">
                     <form action="">
                         <div class="row form-group">
                             <input type="text" id="user" name="user" placeholder="Name..." value="">
@@ -84,8 +119,8 @@
                     </form>
                 </div>
             </div>
-            <footer action="">
-                <div>
+            <footer>
+                <div class="ft-img">
                     <img src="IP3/assets/social_icons/twitter.png" alt="twitter">
                     <img src="IP3/assets/social_icons/dribble.png" alt="dribble">
                     <img src="IP3/assets/social_icons/facebook.png" alt="facebook">
