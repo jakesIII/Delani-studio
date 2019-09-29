@@ -21,7 +21,11 @@ $(document).ready(function(){
         var email = $("input#email").val();
         var text = $("input#textarea").val();
 
-        alert(name + ", Thank you so much for you contacting us.");
+        if($("input#user").val() && $("input#email").val() && $("input#textarea").val !==""){
+            alert(name + ", we appreciate you reaching out. Thank you!");
+        } else {
+            alert("Please fill out the feedback form, Thank you.");
+        }
 
         event.preventDefault();
     });
