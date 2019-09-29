@@ -158,3 +158,7 @@ footer>div>img{
     flex-direction: row;
     flex-wrap: wrap;
 }
+
+.acts{
+    margin: 130px 130px 0px;
+}
